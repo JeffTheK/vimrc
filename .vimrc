@@ -12,3 +12,6 @@ set expandtab
 
 " Highlights matching brackets ()[]{}
 set showmatch
+
+" Enables code block folding
+"set foldenable
