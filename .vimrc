@@ -18,3 +18,8 @@ set showmatch
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
+
+" Turn backup off, since most stuff is in SVN, git etc. anyway...
+set nobackup
+set nowb
+set noswapfile
