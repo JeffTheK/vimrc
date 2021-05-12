@@ -6,3 +6,6 @@ set expandtab
 
 " Line numbering
 "set number
+
+" Highlights line where cursor
+"set cursorline
