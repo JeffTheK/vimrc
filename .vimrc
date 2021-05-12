@@ -9,3 +9,6 @@ set expandtab
 
 " Highlights line where cursor
 "set cursorline
+
+" Highlights matching brackets ()[]{}
+set showmatch
