@@ -4,6 +4,6 @@ task :install_basic do
     return if gets.chomp != 'y'
   end
 
-  vimrc_text = File.open('basic.vimrc').text
+  vimrc_text = File.open('basic.vimrc').read
   File.open("#{Dir.home}/.vimrc", 'w+'){ |f| f << vimrc_text }
 end
