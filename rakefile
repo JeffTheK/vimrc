@@ -1,7 +1,7 @@
 task :install_basic do
   if File.exist?("#{Dir.home}/.vimrc")
     puts('.vimrc already exists. Overwrite the file?(y/n)')
-    return if gets.chomp != 'y'
+    return if STDIN.gets.chomp != 'y'
   end
 
   vimrc_text = File.open('basic.vimrc').read
