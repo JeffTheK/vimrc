@@ -7,3 +7,7 @@ task :install_basic do
   vimrc_text = File.open('basic.vimrc').read
   File.open("#{Dir.home}/.vimrc", 'w+'){ |f| f << vimrc_text }
 end
+
+task :test do
+  system('ruby test/vimrc_tc.rb')
+end
