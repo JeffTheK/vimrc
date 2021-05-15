@@ -37,7 +37,7 @@ set noswapfile
 
 " Map auto complete of ( " ' [
 inoremap ( ()<Esc>i
-inoremap { []<Esc>i
+inoremap [ []<Esc>i
 inoremap { {}<Esc>i
 inoremap {<CR> {<CR>}<Esc>O
 inoremap ' ''<esc>i
