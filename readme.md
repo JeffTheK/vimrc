@@ -5,6 +5,9 @@
 
 My personal vim configuration
 
+## Configs
+- basic.vimrc
+
 ## Usage
 Clone or download this repo then run this command in terminal:
 
